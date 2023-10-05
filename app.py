@@ -5,7 +5,7 @@ import os
 
 # load token
 # load_dotenv()
-token = os.getenv("API_TOKEN", "")
+token = os.getenv("token", "")
 sheet_id = os.getenv("sheet_id", "")
 
 # You can set parse_mode by default. HTML or MARKDOWN

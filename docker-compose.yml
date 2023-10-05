@@ -11,6 +11,10 @@ services:
   server:
     build:
       context: .
+    restart: always
+    environment:
+      token: ${TELEGRAM_API}
+      sheet_id: ${SHEET_ID}
     ports:
       - 5017:5000
 

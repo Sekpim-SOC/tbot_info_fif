@@ -15,8 +15,8 @@ services:
     environment:
       token: ${TELEGRAM_API}
       sheet_id: ${SHEET_ID}
-    ports:
-      - 5017:5000
+    # ports:
+    #   - 5017:5000
 
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to

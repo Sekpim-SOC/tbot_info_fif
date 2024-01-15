@@ -1,14 +1,16 @@
-import telebot, pandas, os
+import pandas, os
 import os
+
+import telebot
 
 # from dotenv.main import load_dotenv
 
 # load token
 # load_dotenv()
-# token = "6099300581:AAEMjnQN0gnieIcj029_tuXyNLi7NSAZt88"
-# sheet_id = "1FUO33IdeaxgFnEfyb0ELkKo6fBBw5JyWH0zfdHH6Stg"
-token = os.getenv("token", "")
-sheet_id = os.getenv("sheet_id", "")
+token = "6099300581:AAEMjnQN0gnieIcj029_tuXyNLi7NSAZt88"
+sheet_id = "1FUO33IdeaxgFnEfyb0ELkKo6fBBw5JyWH0zfdHH6Stg"
+# token = os.getenv("BOT_TOKEN", "")
+# sheet_id = os.getenv("SHEET_ID", "")
 
 # You can set parse_mode by default. HTML or MARKDOWN
 # bot = telebot.TeleBot(token, parse_mode="HTML")
